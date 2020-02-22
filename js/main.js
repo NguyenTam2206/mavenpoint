@@ -11,7 +11,7 @@
     responsive: true,
     parallaxBackgrounds: true,
     parallaxElements: true,
-    horizontalScrolling: true,
+	horizontalScrolling: false,
     hideDistantElements: false,
     scrollProperty: 'scroll'
   });
@@ -85,7 +85,8 @@
 
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
-	    loop:true,
+		loop:true,
+		freeDrag : true,
 	    autoplay: true,
 	    margin:0,
 	    animateOut: 'fadeOut',
