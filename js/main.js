@@ -265,23 +265,6 @@
 
 	// magnific popup
 	$('.image-popup').magnificPopup({
-		items: [
-			{
-			  src: 'images/gallery-1.jpg'
-			},
-			{
-			  src: 'http://vimeo.com/123123',
-			},
-			{
-			  src: $('<div>Dynamically created element</div>'), // Dynamically created element
-			},
-			{
-			  src: '<div>HTML string</div>',
-			},
-			{
-			  src: '#my-popup', // CSS selector of an element on page that should be used as a popup
-			}
-		  ],
     type: 'image',
     closeOnContentClick: true,
     closeBtnInside: false,
