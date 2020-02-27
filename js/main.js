@@ -389,12 +389,6 @@ AOS.init({
 		  },
 		  {
 			src: 'images/fashion/fashion3.jpg',
-		  },
-		  {
-			src: 'images/fashion/fashion4.jpg',
-		  },
-		  {
-			src: 'images/fashion/fashion5.jpg',
 		  }
 		],
 		gallery: {
