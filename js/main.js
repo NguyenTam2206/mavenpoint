@@ -352,6 +352,78 @@ AOS.init({
 		type: 'image' // this is default type
 	});
 
+	$('.image-popupdonotdelay').magnificPopup({
+		items: [
+		  {
+			src: 'images/donotdelay/donotdelay.jpg'
+		  },
+		  {
+			src: 'images/donotdelay/donotdelay1.jpg',
+		  },
+		  {
+			src: 'images/donotdelay/donotdelay2.jpg',
+		  },
+		  {
+			src: 'images/donotdelay/donotdelay3.jpg',
+		  },
+		  {
+			src: 'images/donotdelay/donotdelay4.jpg',
+		  }
+		],
+		gallery: {
+		  enabled: true
+		},
+		type: 'image' // this is default type
+	});
+
+	$('.image-popupfashion').magnificPopup({
+		items: [
+		  {
+			src: 'images/fashion/fashion.jpg'
+		  },
+		  {
+			src: 'images/fashion/fashion1.jpg',
+		  },
+		  {
+			src: 'images/fashion/fashion2.jpg',
+		  },
+		  {
+			src: 'images/fashion/fashion3.jpg',
+		  },
+		  {
+			src: 'images/fashion/fashion4.jpg',
+		  },
+		  {
+			src: 'images/fashion/fashion5.jpg',
+		  }
+		],
+		gallery: {
+		  enabled: true
+		},
+		type: 'image' // this is default type
+	});
+
+	$('.image-popupmanager').magnificPopup({
+		items: [
+		  {
+			src: 'images/manager/manager.jpg'
+		  },
+		  {
+			src: 'images/manager/manager1.jpg',
+		  },
+		  {
+			src: 'images/manager/manager2.jpg',
+		  },
+		  {
+			src: 'images/manager/manager3.jpg',
+		  }
+		],
+		gallery: {
+		  enabled: true
+		},
+		type: 'image' // this is default type
+	});
+
 	$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
 		disableOn: 700,
 		type: 'iframe',
