@@ -9909,3 +9909,11 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.iconcontact {
+  color: grey;
+}
+
+.contact-hover:hover {
+  color: white !important;
+}
